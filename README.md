@@ -10,9 +10,7 @@ I placed the data inside a folder called data within the project root folder (th
 After placing data, the directory structure looks as follows 
 - root
     * data\
-        * data_batch_1
-        * data_batch_2 
-        * ..
+        
     * layers\
     * loss\
     * utilities\
