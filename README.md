@@ -38,12 +38,22 @@ After placing data, the directory structure looks as follows
     ```python
     model = Model(
         Convolution(filters=5, padding='same'),
-        Elu(),
+        Relu(),
+        Convolution(filters=5, padding='same'),
+        Relu(),
+        Convolution(filters=5, padding='same'),
+        Relu(),
+        Convolution(filters=5, padding='same'),
+        Relu(),
+        Convolution(filters=5, padding='same'),
+        Relu(),
         Pooling(mode='max', kernel_shape=(2, 2), stride=2),
         Flatten(),
-        FullyConnected(units=10),
+        FullyConnected(units=4),
+        FullyConnected(units=4),
+        FullyConnected(units=4),
         Softmax(),
-        name='cnn-model'
+        name='cnn5'
     )
     ```
 5) Set model loss
