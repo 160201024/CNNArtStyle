@@ -5,9 +5,9 @@ A numpy based CNN implementation for classifying images.
 
 Follow the steps listed below for using this repository after cloning it.  
 For examples, you can look at the code in [fully_connected_network.py](https://github.com/160201024/CNNArtStyle/blob/master/layers/fully_connected.py) and [cnn.py](https://github.com/160201024/CNNArtStyle/blob/master/cnn.py).  
-I placed the data inside a folder called data within the project root folder (this code works by default with cifar10, for other datasets, the filereader in utilities can't be used). 
+[Data] : https://www.kaggle.com/c/painter-by-numbers/data
 
-After placing data, the directory structure looks as follows 
+The directory structure looks as follows 
 - root
     * data\
         
@@ -83,10 +83,6 @@ After placing data, the directory structure looks as follows
 
 
 ---
-This was a fun project that started out as me trying to implement a CNN by myself for classifying cifar10 images. In process, I was able to implement a reusable (numpy based)
-library-ish code for creating CNNs with adam optimization.
 
-Anyone wanting to understand how backpropagation works in CNNs is welcome to try out this code, but for all practical usage there are better frameworks
-with performances that this code cannot even come close to replicating.
 
 The CNN implemented here is based on [Andrej Karpathy's notes](http://cs231n.github.io/convolutional-networks/)
