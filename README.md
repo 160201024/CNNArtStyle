@@ -5,7 +5,7 @@ A numpy based CNN implementation for classifying images.
 
 Follow the steps listed below for using this repository after cloning it.  
 For examples, you can look at the code in [fully_connected_network.py](https://github.com/160201024/CNNArtStyle/blob/master/layers/fully_connected.py) and [cnn.py](https://github.com/160201024/CNNArtStyle/blob/master/cnn.py).  
-[Data] : https://www.kaggle.com/c/painter-by-numbers/data
+[Data] : (https://www.kaggle.com/c/painter-by-numbers/data)
 
 The directory structure looks as follows 
 - root
